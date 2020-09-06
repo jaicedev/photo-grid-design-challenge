@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/photo-grid-design-challenge/precache-manifest.d29b32b19af6e11efada886c1da69c0d.js"
+  "/photo-grid-design-challenge/precache-manifest.4979e698de16a2e98d13a8183acc0768.js"
 );
 
 self.addEventListener('message', (event) => {

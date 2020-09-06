@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "d77b308ffe06a006cfe347c3895133e2",
+    "revision": "9a06e4af8003f86b350c75bb9aacbfc2",
     "url": "/photo-grid-design-challenge/index.html"
   },
   {
