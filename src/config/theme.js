@@ -6,6 +6,6 @@ export const accentColor = "#4a5759";
 
 export const gridSquares = "#dcdcdd";
 
-export const imageContainerColor = "#d6e0f0";
+export const imageContainerColor = "#6b9080";
 
 export const textColor = "#46494c";
