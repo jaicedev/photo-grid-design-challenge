@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.js": "/photo-grid-design-challenge/static/js/main.a81f6f4a.chunk.js",
+    "main.js.map": "/photo-grid-design-challenge/static/js/main.a81f6f4a.chunk.js.map",
+    "runtime-main.js": "/photo-grid-design-challenge/static/js/runtime-main.f01f0e0e.js",
+    "runtime-main.js.map": "/photo-grid-design-challenge/static/js/runtime-main.f01f0e0e.js.map",
+    "static/js/2.9e5e4a2d.chunk.js": "/photo-grid-design-challenge/static/js/2.9e5e4a2d.chunk.js",
+    "static/js/2.9e5e4a2d.chunk.js.map": "/photo-grid-design-challenge/static/js/2.9e5e4a2d.chunk.js.map",
+    "index.html": "/photo-grid-design-challenge/index.html",
+    "precache-manifest.d29b32b19af6e11efada886c1da69c0d.js": "/photo-grid-design-challenge/precache-manifest.d29b32b19af6e11efada886c1da69c0d.js",
+    "service-worker.js": "/photo-grid-design-challenge/service-worker.js",
+    "static/js/2.9e5e4a2d.chunk.js.LICENSE.txt": "/photo-grid-design-challenge/static/js/2.9e5e4a2d.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f01f0e0e.js",
+    "static/js/2.9e5e4a2d.chunk.js",
+    "static/js/main.a81f6f4a.chunk.js"
+  ]
+}
