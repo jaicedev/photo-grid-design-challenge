@@ -14,7 +14,7 @@ export const InputLabel = styled.label`
   font-size: 1.5rem;
   text-align: center;
   margin: 1rem 0;
-  color: gray;
+  color: ${(props) => props.theme.textColor};
 `;
 
 export const Grayscale = styled.div`

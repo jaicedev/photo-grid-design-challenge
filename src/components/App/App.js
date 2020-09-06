@@ -12,7 +12,7 @@ const GlobalStyle = createGlobalStyle`
         margin: 0;
         padding: 0;
         font-family: 'Lato', sans-serif;
-        background-color: #f1f3f8;
+        background-color: ${(props) => props.theme.bgColor};
     }
     *:focus {
       outline: none;

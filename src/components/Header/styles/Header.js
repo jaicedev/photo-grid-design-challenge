@@ -5,7 +5,7 @@ export const HeaderContainer = styled.header`
   display: flex;
   flex-direction: row;
   margin: 1rem auto;
-  @media screen and (min-width: 2000px) {
+  @media screen and (min-width: 1700px) {
     width: 30%;
   }
 `;
@@ -22,7 +22,7 @@ export const LogoContainer = styled.div`
 
 export const Logo = styled.h1`
   font-size: 2rem;
-  color: #66bfbf;
+  color: ${(props) => props.theme.accentColor};
   @media screen and (max-width: 700px) {
     text-align: center;
   }
@@ -45,10 +45,10 @@ export const Icon = styled.a`
   font-size: 1.3rem;
   margin: 0 1rem;
   text-decoration: none;
-  color: #66bfbf;
+  color: ${(props) => props.theme.accentColor};
 
   &:hover {
     transition: 100ms ease-in;
-    color: #056674;
+    color: ${(props) => props.theme.mainColor};
   }
 `;

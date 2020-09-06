@@ -23,8 +23,10 @@ export const GridRow = styled.div`
 export const GridSquare = styled.div`
   width: 50px;
   height: 50px;
-  background-color: ${(props) => (props.active ? "#66bfbf" : "#8d93ab")};
+  background-color: ${(props) =>
+    props.active ? props.theme.mainColor : props.theme.gridSquares};
   margin-right: 5px;
+  border: 1px solid ${(props) => props.theme.accentColor};
 
   &:hover {
     transition: 100ms ease-in;
@@ -34,7 +36,7 @@ export const GridSquare = styled.div`
   p {
     text-align: center;
     align-items: center;
-    color: #056674;
+    color: ${(props) => props.theme.accentColor};
     font-weight: bold;
   }
 `;

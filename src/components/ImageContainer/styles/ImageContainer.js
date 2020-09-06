@@ -7,16 +7,17 @@ export const ButtonContainer = styled.div`
 `;
 
 export const Generate = styled.button`
-  background-color: #66bfbf;
+  background-color: ${(props) => props.theme.mainColor};
   color: white;
   font-size: 1.3rem;
   border-style: none;
   padding: 0.5rem;
   width: 20%;
   margin: 1rem 0;
+  border-radius: 5px;
 
   &:hover {
-    background: #056674;
+    background: ${(props) => props.theme.accentColor};
     cursor: pointer;
     box-shadow: 0 11px 17px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
   }
@@ -28,7 +29,7 @@ export const Generate = styled.button`
 
 export const Container = styled.div`
   width: 100%;
-  background-color: #d6e0f0;
+  background-color: ${(props) => props.theme.imageContainerColor};
   display: flex;
   justify-content: center;
   margin: 0 auto;
