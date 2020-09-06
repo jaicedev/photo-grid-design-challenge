@@ -76,7 +76,7 @@ class Grid extends Component {
         <GridRow>
           <GridSquare
             active={this.state.one}
-            onMouseOver={this.handleChange}
+            onClick={this.handleChange}
             value="1"
             default
             selector
@@ -92,7 +92,7 @@ class Grid extends Component {
           <GridSquare active={this.state.four} />
           <GridSquare
             active={this.state.four}
-            onMouseOver={this.handleChange}
+            onClick={this.handleChange}
             value="2"
             selector
           >
@@ -107,7 +107,7 @@ class Grid extends Component {
           <GridSquare active={this.state.nine} />
           <GridSquare
             active={this.state.nine}
-            onMouseOver={this.handleChange}
+            onClick={this.handleChange}
             value="3"
             selector
           >
@@ -122,7 +122,7 @@ class Grid extends Component {
           <GridSquare active={this.state.sixteen} />
           <GridSquare
             active={this.state.sixteen}
-            onMouseOver={this.handleChange}
+            onClick={this.handleChange}
             value="4"
             selector
           >
@@ -137,7 +137,7 @@ class Grid extends Component {
           <GridSquare active={this.state.twentyfive} />
           <GridSquare
             active={this.state.twentyfive}
-            onMouseOver={this.handleChange}
+            onClick={this.handleChange}
             value="5"
             selector
           >
